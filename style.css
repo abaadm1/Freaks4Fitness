@@ -1,0 +1,265 @@
+.navbar-custom{
+  font-family: 'Audiowide';
+  font-size: 20px;
+}
+.navbar-custom{
+    background-color:#1a1a1a!important;
+
+}
+.navbar-nav > .active > a {
+    color: #ff751a !important;
+
+  }
+.nav-item > a:hover {
+    color:  #ff8533 !important;
+  }
+.pakage{
+  background-color:#1a1a1a;
+}
+.full {
+  width: 100%;    
+}
+.gap {
+height: 30px;
+width: 100%;
+clear: both;
+display: block;
+}
+.footer {
+background: #1a1a1a;
+height: auto;
+padding-bottom: 30px;
+position: relative;
+width: 100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+}
+.footer p {
+margin: 0;
+}
+.footer img {
+max-width: 100%;
+}
+.footer h3 {
+color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 0px;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+.footer h4 {
+color: white;
+font-size: 2em;
+font-weight: 600;
+line-height: 38px;
+padding: 40px 0 10px;
+font-family: cursive;
+font-weight: lighter
+}
+
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 0px;
+color: #7F8C8D;
+padding: 0 0 8px 0;
+}
+
+.email{
+border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+padding: 0 0 12px 0;
+display: block;
+}
+.footer a {
+color: white;
+font-weight: lighter;
+}
+
+.footer p {
+color: white;
+font-weight: lighter;
+}
+
+.footer a:hover {
+text-decoration:none;
+font-weight: bold;
+color:#ff8533;
+}
+.supportLi h4 {
+font-size: 20px;
+font-weight: lighter;
+line-height: normal;
+margin-bottom: 0 !important;
+padding-bottom: 0;
+}
+
+.bg-gray {
+background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.footer a {
+color: white
+}
+
+.footer-bottom {
+margin-top: 2em;
+border-top: 1px solid #DDDDDD;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+padding-top: 6px;
+font-size: 0.75em
+}
+
+.progress-bar-orange {
+  background-color: #ff8533 !important;
+
+}
+.btn1{
+  background-color: #1a1a1a;
+  font-family: 'Audiowide';
+  font-size: 22px;
+  color: white;
+  border: 3px solid white;
+  text-decoration: none;
+  padding: 10px;
+}
+.btn2{
+  background-color: #ff8533;
+
+  font-family: 'Audiowide';
+  font-size: 22px;
+  color: white;
+  border: 3px solid white;
+  text-decoration: none;
+  padding: 10px;
+}
+.btn1:hover{
+  text-decoration: none;
+  color: #ff751a;
+  border: 3px solid #ff751a;
+}
+
+.btn2:hover{
+  text-decoration: none;
+  color: #1a1a1a;
+  border: 3px solid #1a1a1a;
+}
+.beforefooter{
+  margin-bottom: 100px;
+
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .mediaq {
+    font-size: 30px;
+  }
+  .mediaq1{
+    font-size: 24px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .mediaq {
+    font-size: 18px;
+  }
+  .mediaq1{
+    font-size: 14px;
+  }
+}
+
+
+.cardcolor:hover{
+  background-color: #ff8533;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid white; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid white; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  font-family: Averia Sans Libre;
+  background-color: #ff751a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .minsetpics{
+    width:42%;
+  }
+
+
+
+}
+@media screen and (max-width: 475px) {
+  .mainlogoline{
+    width:75%;
+  }
+  .mainlogoicon{
+    width:15%;
+  }
+  .navbar-toggler{
+    height:7%;
+    width:18%;
+
+  }
+
+
+}
+@media screen and (min-width: 770px) {
+  .trainingcard{
+    width:100%;
+  }
+
+
+}
